@@ -124,10 +124,54 @@ h3{
 .transport{
     padding-top: 80px;
     padding-bottom: 80px;
+    text-align: center;
 }
 
-.conteneur-transport{
+.conteneur_transport{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 60px;
+}
+
+.transport p{
+    margin-top: 5px;
+}
+
+.menu-social a{
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+}
+
+.footer .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-social{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+}
+
+.facebook a:hover{
+    background-color: #1877f2;
+}
+
+.twitter a:hover{
+    background-color: #1da1f2;
+}
+
+.linkedin a:hover{
+    background-color: #0a66c2;
+}
+
+.conteneur-transport-invisible{ 
+    display: none;
 }
